@@ -431,7 +431,7 @@ body {
 /* start header-bottom */
 
 .header-bottom{
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 .header-content{
   display: flex;
@@ -477,7 +477,46 @@ body {
 .header-content-wrapper{
   max-width: 28rem;
 }
-/* start main */
+/* start main-works */
+
+.main{
+  padding: 6rem 0;
+}
+.works{
+  text-align: center;
+}
+.works-text{
+  color: #6C7890;
+  margin-bottom: 0;
+}
+.works-title{
+  color: #081D43;
+  font-family: "ttnorms medium";
+  margin-top: 0.8rem;
+  font-weight: normal;
+}
+.works-content{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+.works-content-item{}
+.works-content-item-title{
+  color: #081D43;
+}
+.works-content-item-text{
+  color: #6C7890;
+  line-height: 2rem;
+  max-width: 16rem;
+}
+.works-image{
+  max-width: 31rem;
+  margin: 0 auto;
+}
+.works-img{
+  width: 100%;
+}
 /* start footer */
 /* break point */
 
