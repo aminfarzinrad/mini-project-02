@@ -394,8 +394,7 @@ body {
 }
 /* start head-top */
 
-.header {
-}
+.header {}
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -409,16 +408,14 @@ body {
 .logo-nav {
   margin-right: 2rem;
 }
-.logo-nav-image {
-}
+.logo-nav-image {}
 .menu {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
   display: flex;
 }
-.menu-item {
-}
+.menu-item {}
 .menu-link {
   text-decoration: none;
   color: #081d43;
@@ -504,8 +501,7 @@ body {
   justify-content: space-around;
   margin-bottom: 3rem;
 }
-.works-content-item {
-}
+.works-content-item {}
 .works-content-item-title {
   color: #081d43;
 }
@@ -538,8 +534,8 @@ body {
   font-family: "ttnorms light";
 }
 .comments {
-  margin: 3.5rem 0;
   display: flex;
+  justify-content: space-between;
 }
 .comment {
   background-color: #ffffff;
@@ -548,7 +544,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 17rem;
+  min-height: 18rem;
+  flex-basis: 20rem;
 }
 .comment-content {
   text-align: left;
@@ -566,11 +563,24 @@ body {
   padding: 0.8rem 1.2rem;
   align-items: center;
 }
-.comment-info-image {
-}
-.comment-info-nmae {
+.comment-info-image {}
+.comment-info-name {
   color: #000000;
   margin: 0 0 0 0.5rem;
+}
+.commnet-container{
+  max-width: 65rem;
+  margin: 3.5rem auto 0 auto;
+}
+.company{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem ;
+}
+.image-company{
+  display: block;
+  margin: 1rem;
 }
 /* start footer */
 /* break point */
