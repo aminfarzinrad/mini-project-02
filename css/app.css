@@ -644,6 +644,18 @@ body {
   align-items: center;
   border-radius: 0.5rem;
 }
+/* start footer-bottom */
+
+.footer-bottom{}
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-right-text{
+  color: #6C7890;
+  padding: 1rem 0;
+}
 /* break point */
 
 @media only screen and (max-width: 1200px) {
