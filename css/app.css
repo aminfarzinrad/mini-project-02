@@ -426,7 +426,7 @@ body {
   background-color: #0050c8;
   color: #ffffff;
   padding: 0.8rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 /* start header-bottom */
 
@@ -455,14 +455,14 @@ body {
 }
 .header-content-links {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 .header-content-link {
   text-decoration: none;
   background-color: #0050c8;
   color: #ffffff;
   padding: 0.8rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   margin-right: 0.8rem;
   display: block;
   width: 10rem;
@@ -480,20 +480,23 @@ body {
 /* start main-section-works */
 
 .main {
-  padding: 6rem 0;
+  padding-top: 3rem;
 }
 .works {
   text-align: center;
+  padding: 5rem 0;
 }
 .works-text, .portfolio-text {
   color: #6c7890;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .works-title, .portfolio-title {
   color: #081d43;
   font-family: "ttnorms medium";
   margin-top: 0.8rem;
   font-weight: normal;
+  font-size: 1.8rem;
 }
 .works-content {
   margin-top: 3rem;
@@ -522,16 +525,21 @@ body {
 .person-comment {
   background-color: #2f5bea;
   text-align: center;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .person-comment-title {
   color: #ffffff;
   font-family: "ttnorms medium";
   font-weight: normal;
+  margin-top: 0;
+  font-size: 1.8rem;
 }
 .person-comment-text {
   color: #ffffff;
   font-family: "ttnorms light";
+  max-width: 28rem;
+  margin: 0 auto;
+  line-height: 1.8rem;
 }
 .comments {
   display: flex;
@@ -540,7 +548,7 @@ body {
 .comment {
   background-color: #ffffff;
   margin: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -586,7 +594,7 @@ body {
 
 .portfolio{
   text-align: center;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .portfolio-text{}
 .portfolio-title{}
@@ -599,18 +607,20 @@ body {
 .portfolio-item{
   flex-basis: 23rem;
   margin-bottom: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   overflow: hidden;
 }
 .portfolio-image{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* start footer-top */
 
 .footer{}
 .footer-top{
   background-color: #2C57E4;
-  padding: 4.5rem 0;
+  padding: 6.5rem 0;
   color: #ffffff;
 }
 .footer-top-wrapprt{
@@ -620,14 +630,15 @@ body {
 }
 .footer-top-wrapprt-text{
   font-size: 1.6rem;
+  font-weight: normal;
 }
 .email{
   background-color: #ffffff;
-  flex-basis: 20rem;
+  flex-basis: 22rem;
   display: flex;
   justify-content: space-between;
-  padding: 0.4rem 0.4rem 0.4rem 1.5rem;
-  border-radius: 0.5rem;
+  padding: 0.3rem 0.3rem 0.3rem 1.5rem;
+  border-radius: 0.3rem;
   align-items: center;
 }
 .input-email-address{
@@ -642,7 +653,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 /* start footer-bottom */
 
