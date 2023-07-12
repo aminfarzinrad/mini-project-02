@@ -687,6 +687,25 @@ body {
   .header-link{
     display: none;
   }
+  .header-content{
+    flex-direction: column-reverse;
+  }
+  .header-bottom{
+    margin-top: 3rem;
+  }
+  .header-content-wrapper{
+    max-width: 100%;
+  }
+  header-content-right{
+    margin-bottom: 2rem;
+  }
+  .header-content-links{
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .header-content-link{
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -701,7 +720,7 @@ body {
     top: 0;
     left: -288px;
     bottom: 0;
-    background: greenyellow;
+    background: #3f10e1;
     width: 16rem;
     flex-direction: column;  
     padding: 2rem 1rem;
@@ -710,6 +729,9 @@ body {
   .menu-item{
     margin-bottom: 2rem;
     font-size: 1.2rem;
+  }
+  .menu-link{
+    color: #ffffff;
   }
 }
 
