@@ -701,7 +701,7 @@ body {
   .header-content-wrapper{
     max-width: 100%;
   }
-  header-content-right{
+  .header-content-right{
     margin-bottom: 2rem;
   }
   .header-content-links{
