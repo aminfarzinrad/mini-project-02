@@ -376,7 +376,7 @@ html {
 }
 
 *,
-*:befor,
+*:before,
 *:after {
   box-sizing: inherit;
 }
@@ -686,6 +686,10 @@ body {
   .portfolio-item{
     flex-basis: 28rem;
   }
+  .footer-top-wrapprt-text{
+    max-width: 25rem;
+  }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -726,7 +730,10 @@ body {
   }
   .portfolio-item{
     flex-basis: 20rem;
-  }  
+  }
+  .footer-top-wrapprt-text{
+    max-width: 20rem;
+  }    
 }
 
 @media only screen and (max-width: 768px) {
@@ -768,6 +775,17 @@ body {
   .portfolio-item{
     flex-basis: 100%;
   }  
+  .footer-top-wrapprt{
+    flex-direction: column;
+  }
+  .email{
+    flex-basis: auto;
+    width: 100%;
+  }
+  .footer-top-wrapprt-text{
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
