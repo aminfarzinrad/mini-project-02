@@ -654,6 +654,7 @@ body {
 .input-email-address{
   border: none;
   outline: none;  
+  width: 100%;
 }
 .email-address-btn{
   background-color: #2C57E4;
@@ -804,5 +805,12 @@ body {
   }
   .company{
     flex-direction: column;
+  }
+  .email-address-btn{
+    padding: 1rem 1.2rem;
+  }
+  .copy-right-text{
+    margin: 0;
+    padding: 0.5rem 0;
   }
 }
