@@ -683,6 +683,9 @@ body {
   .container {
     max-width: 960px;
   }
+  .portfolio-item{
+    flex-basis: 28rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -721,6 +724,9 @@ body {
     justify-content: center;
     margin-top: 2.5rem;
   }
+  .portfolio-item{
+    flex-basis: 20rem;
+  }  
 }
 
 @media only screen and (max-width: 768px) {
@@ -758,7 +764,9 @@ body {
     /* ravesh 2 */
     margin: 0 0 1.5rem 0;
     flex-basis: 15rem;
-    
+  }  
+  .portfolio-item{
+    flex-basis: 100%;
   }  
 }
 
