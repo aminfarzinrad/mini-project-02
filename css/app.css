@@ -594,6 +594,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 5rem ;
+  flex-wrap: wrap;
 }
 .image-company{
   display: block;
@@ -710,6 +711,16 @@ body {
   .header-content-link{
     margin-bottom: 1rem;
   }
+  .comments{
+    flex-wrap: wrap;
+  }
+  .comment{
+    flex-basis: 19rem;
+  }
+  .company{
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -741,6 +752,14 @@ body {
     flex-basis: 14rem;
     margin-bottom: 1.5rem;
   }
+  .comment{
+    /* flex-basis: 100%;  ravesh 1 */
+
+    /* ravesh 2 */
+    margin: 0 0 1.5rem 0;
+    flex-basis: 15rem;
+    
+  }  
 }
 
 @media only screen and (max-width: 576px) {
@@ -752,5 +771,11 @@ body {
   }
   .works-content-item-text{
     max-width: 100%;
+  }
+  .comment{
+    flex-basis: 100%;
+  }
+  .company{
+    flex-direction: column;
   }
 }
